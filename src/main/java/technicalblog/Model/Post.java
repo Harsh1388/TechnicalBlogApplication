@@ -4,6 +4,9 @@ import java.util.Date;
 
 
 public class Post {
+    public  Post(){
+        System.out.println("#### Post Model ####");
+    }
     private String title;
     private String body;
     private Date date;
